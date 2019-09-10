@@ -15,4 +15,5 @@ def my_all?(collection)
     return false
   else
     return true
+  end
 end
