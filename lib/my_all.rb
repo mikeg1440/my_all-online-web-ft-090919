@@ -10,5 +10,7 @@ def my_all?(collection)
     i += 1
   
   end
-  !block_return_values.include?(False)
+  
+  if block_return_values.include?(False)
+    return False
 end
