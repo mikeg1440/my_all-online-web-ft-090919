@@ -11,10 +11,10 @@ def my_all?(collection)
   
   end
   
-  if block_return_values.include?(false)
-    return false
-  else
-    return true
-  end
-  
+  # if block_return_values.include?(false)
+  #   return false
+  # else
+  #   return true
+  # end
+  !block_return_values.include?(false)  
 end
